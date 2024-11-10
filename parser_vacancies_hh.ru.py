@@ -15,6 +15,7 @@ def getPage(page, area):
         'only_with_salary': 1,          # Вакансии только с указанием зарплаты
         'professional_role': 10         # Профессиональная роль
     }
+
     try:
         req = requests.get(url, params)
         req.raise_for_status()  # Вызовет исключение для HTTP ошибок
