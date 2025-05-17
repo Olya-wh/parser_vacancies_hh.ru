@@ -56,6 +56,9 @@
 Готовые данные можно использовать для визуализации (например, boxplot по городам).
 
 ```
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 plt.figure(figsize=(16, 24))
 
 # Построение boxplot
